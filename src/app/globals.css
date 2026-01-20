@@ -4,10 +4,10 @@
 
 @layer base {
   html {
-    scroll-behavior: smooth; /* 页面滚动更丝滑 */
+    scroll-behavior: smooth;
   }
   body {
-    @apply antialiased; /* 文字抗锯齿，更清晰 */
+    @apply antialiased;
   }
 }
 
