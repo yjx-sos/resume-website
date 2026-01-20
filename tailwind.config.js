@@ -1,20 +1,20 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  // 关键：覆盖你项目实际的文件路径
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    // 使用 extend 来扩展默认主题
     extend: {
-      // 重点：必须在这里配置自定义颜色！
       colors: {
-        primary: '#3b82f6', // 主色调（蓝色，也可以换成你喜欢的颜色）
-        secondary: '#10b981', // 辅助色（可选）
+        primary: "#3b82f6",   // 你的主色
+        secondary: "#10b981", // 你的次色
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
-      },
+      }
     },
   },
   plugins: [],
