@@ -7,7 +7,7 @@ export default function Hero() {
     <section className="py-20 text-center">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl font-bold mb-4">
-          你好，我是 <span className="text-primary">{resumeData.personalInfo.name}</span>
+          你好，我是 <span className="text-blue-500">{resumeData.personalInfo.name}</span>
         </h1>
         <h2 className="text-2xl text-gray-600 mb-6">
           {resumeData.personalInfo.title}

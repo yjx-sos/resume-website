@@ -16,14 +16,14 @@ export default function ExperienceTimeline() {
           )}
 
           {/* 时间轴圆点 */}
-          <div className="absolute left-0 top-0 w-6 h-6 bg-primary rounded-full border-4 border-white" />
+          <div className="absolute left-0 top-0 w-6 h-6 bg-blue-500 rounded-full border-4 border-white" />
 
           {/* 内容卡片 */}
           <div className="card">
             {/* 标题行：职位 + 公司 */}
             <div className="flex flex-col md:flex-row md:items-center justify-between mb-4">
               <h3 className="text-xl font-bold">{exp.position}</h3>
-              <span className="text-primary font-medium">{exp.company}</span>
+              <span className="text-blue-500 font-medium">{exp.company}</span>
             </div>
 
             {/* 时间 + 地点 */}

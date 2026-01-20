@@ -17,21 +17,21 @@ export default function ContactPage() {
           <h3 className="text-xl font-bold mb-6">联系信息</h3>
           <div className="space-y-6">
             <div className="flex items-center">
-              <Mail className="w-6 h-6 mr-4 text-primary" />
+              <Mail className="w-6 h-6 mr-4 text-blue-500" />
               <div>
                 <p className="font-medium">邮箱</p>
                 <p className="text-gray-600">{resumeData.personalInfo.email}</p>
               </div>
             </div>
             <div className="flex items-center">
-              <Phone className="w-6 h-6 mr-4 text-primary" />
+              <Phone className="w-6 h-6 mr-4 text-blue-500" />
               <div>
                 <p className="font-medium">电话</p>
                 <p className="text-gray-600">{resumeData.personalInfo.phone}</p>
               </div>
             </div>
             <div className="flex items-center">
-              <MapPin className="w-6 h-6 mr-4 text-primary" />
+              <MapPin className="w-6 h-6 mr-4 text-blue-500" />
               <div>
                 <p className="font-medium">地址</p>
                 <p className="text-gray-600">{resumeData.personalInfo.location}</p>

@@ -23,7 +23,7 @@ export default function Navigation() {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           {/* 网站 Logo/名字 */}
-          <Link href="/" className="text-xl font-bold text-primary">
+          <Link href="/" className="text-xl font-bold text-blue-500">
             你的姓名
           </Link>
 
@@ -33,7 +33,7 @@ export default function Navigation() {
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-gray-700 hover:text-primary transition-colors"
+                className="text-gray-700 hover:text-blue-500 transition-colors"
               >
                 {item.name}
               </Link>
