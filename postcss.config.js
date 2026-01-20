@@ -1,6 +1,6 @@
 module.exports = {
   plugins: {
-    tailwindcss: {}, // 直接使用 tailwindcss 内置的 PostCSS 支持
+    '@tailwindcss/postcss': {}, // 使用带 @ 前缀的正确插件名
     autoprefixer: {},
   },
 };
