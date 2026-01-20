@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="flex space-x-4">
             {/* GitHub 链接 */}
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/yjx-sos"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors"
@@ -20,7 +20,7 @@ export default function Footer() {
             </a>
             {/* LinkedIn 链接 */}
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/jiaxin-yang-4541a73a7"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors"

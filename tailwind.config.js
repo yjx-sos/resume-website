@@ -7,9 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      // 重点：添加这部分自定义颜色配置
       colors: {
-        primary: '#3b82f6', // 主色调（蓝色），可以改成自己喜欢的颜色
-        secondary: '#10b981', // 辅助色（绿色）
+        primary: '#3b82f6', // 主色调（蓝色，你可以改成自己喜欢的颜色）
+        secondary: '#10b981', // 辅助色（可选）
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
